@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>EMail Message form Thymeleaf</title>
+</head>
+<body>
+<div>
+    <img src="https://spin.atomicobject.com/wp-content/uploads/20161220111635/Clean-Code.jpg"/>
+</div>
+
+<h1> This email was sent to <span th:text="${mailTo}"></span> with <span th:text="${sender}"></span></h1>
+</body>
+</html>
